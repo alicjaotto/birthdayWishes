@@ -9574,24 +9574,45 @@ document.addEventListener('DOMContentLoaded', function () {
                 var photo;
 
                 if (this.state.name == "Ala") {
-                    info = "trafiłeś!";
-                    wishes = "";
-                    photo = "../chat-bubble.png";
+                    info = "wow, trafiłeś!";
+                    wishes = "Bezpiecznych znajomych i inspirujących przygód :)";
+                    photo = "";
                 } else if (this.state.name == "Jaconi") {
                     info = "trafiłeś!";
-                    wishes = "Żebyś miał zawsze zluzowane szelki";
-                } else if (this.state.name == "Kacper") {
+                    wishes = "Żebyś miał zawsze zluzowane szelki!";
+                } else if (this.state.name == "Misiak") {
                     info = "trafiłeś!";
                     wishes = "";
-                } else if (this.state.name == "Wojtuś") {
+                } else if (this.state.name == "Luis") {
                     info = "trafiłeś!";
-                    wishes = "";
-                } else if (this.state.name == "Moni") {
+                    wishes = "Either because of getting older or 'henner', better broth is produced. Molt d'anys from Barcelona!";
+                } else if (this.state.name == "Paczos") {
                     info = "trafiłeś!";
-                    wishes = "";
+                    wishes = "Twardych jaj!";
+                } else if (this.state.name == "Duży") {
+                    info = "trafiłeś!";
+                    wishes = 'Ala teraz robi strony, co zaobserwowa\u0142 Johnny.\n                \'Sta\u0142a\u015B si\u0119 webow\u0105 wr\xF3\u017Ck\u0105\' - czule szepn\u0105\u0142 jej na uszko.\n                React z jQuery na starcie, tylko PeHaP daje tarcie..';
                 } else if (this.state.name == "Mama" || this.state.name == "Tata") {
                     info = "trafiłeś!";
                     wishes = 'Niech Ci winko leci z kranu, nim polecisz do Iranu.\n                        Tam ju\u017C winka pi\u0107 nie trzeba, Allah gro\u017Anie patrzy z nieba.\n                        Niech Ci\u0119 tam pilnuje \u017Cona - Iran to nie Arizona...\n                     S\u0142uchaj przestr\xF3g mamy, taty - bo Ci porachuj\u0105 gnaty!!!';
+                } else if (this.state.name == "Kasia Górska") {
+                    info = "trafiłeś!";
+                    wishes = "Żeby zdrowko i humor zawsze dopisywały, żonka byla wiecznie młoda i piękna;), i zeby rodzinka powiekszyla sie niebawem o tylu młodych i silnych gagatkow (płci obojga), że zabraknie dla nich kandydatow na chrzestnych spośrod rodziny i znajomych :)";
+                } else if (this.state.name == "Andrzej") {
+                    info = "trafiłeś!";
+                    wishes = "Jasiu, piekną żonę juz masz i wiecej kobiet w swoim wieku nie potrzebujesz ;) Za to, życze ci pięknej córy i spełnienia marzeń, których Twoja głowa jest pełna!";
+                } else if (this.state.name == "Kasia Rymuza") {
+                    info = "trafiłeś!";
+                    wishes = "Jasiu, rośnij duży, mądry i bogaty";
+                } else if (this.state.name == "Rafał") {
+                    info = "trafiłeś!";
+                    wishes = "Na obiad bitek a nie bitow ;) i żeby żona Ci się nie znerdziła...:)";
+                } else if (this.state.name == "Kasia") {
+                    info = "która?!";
+                    wishes = "";
+                } else if (this.state.name == "Kasia Prządka") {
+                    info = "trafiłeś!";
+                    wishes = "Podróżniczych przygód, radości każdego dnia i realizacji marzeń!";
                 } else {
                     info = "jeszcze nie trafiłeś!";
                 }
