@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oxygen", Helvetica, sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+input {
+
+    width: 200px;
+    height: 40px;
+    padding: 0 20px;
+    margin: 0 30px 40px 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+
+
+}
+
+span {
+    color: gray;
+    text-transform: uppercase;
+}
+
+#cloud {
+    width: 700px;
+    height: 400px;
+    background-image: url('../chat-bubble.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.center {
+    float: right;
+}
+
+p {
+    /*background-color: yellow;
+    opacity: 0.6;*/
+    margin-top: 40px;
+    margin-left: 15px;
+    width: 500px;
+    height: 230px;
+    text-align: center;
+    line-height: 230px;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 300;
+    text-align: center;
+    color: gray;
+}
