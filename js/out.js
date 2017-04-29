@@ -9575,7 +9575,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 if (this.state.name == "Ala") {
                     info = "wow, trafiłeś!";
-                    wishes = "Jaś, po pierwsze to dziękuję Ci za Twoj:)";
+                    wishes = "Jaś, po pierwsze to dziękuję Ci za Twoją motywację i wiarę we mnie. Jesteś moją lepszą połówką:) Życzę i Tobie, i sobie, kolejnych wesołych lat razem, z dziećmi lub bez, odważnie spełniając marzenia. nnwjbck";
                     photo = "./images/alajas.png";
                 } else if (this.state.name == "Jaconi") {
                     info = "trafiłeś!";
@@ -9603,7 +9603,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 } else if (this.state.name == "Kasia Górska") {
                     info = "trafiłeś!";
                     wishes = "Żeby zdrowko i humor zawsze dopisywały, żonka byla wiecznie młoda i piękna;), i zeby rodzinka powiekszyla sie niebawem o tylu młodych i silnych gagatkow (płci obojga), że zabraknie dla nich kandydatow na chrzestnych spośrod rodziny i znajomych :)";
-                    photo = "";
+                    photo = "./images/kachu.png";
                 } else if (this.state.name == "Andrzej") {
                     info = "trafiłeś!";
                     wishes = "Jasiu, piekną żonę juz masz i wiecej kobiet w swoim wieku nie potrzebujesz ;) Za to, życze ci pięknej córy i spełnienia marzeń, których Twoja głowa jest pełna!";
@@ -9615,18 +9615,18 @@ document.addEventListener('DOMContentLoaded', function () {
                 } else if (this.state.name == "Rafał") {
                     info = "trafiłeś!";
                     wishes = "Na obiad bitek a nie bitow ;) i żeby żona Ci się nie     znerdziła...:)";
-                    photo = "";
+                    photo = "./images/otty.png";
                 } else if (this.state.name == "Kasia") {
                     info = "która?!";
                     wishes = "";
                 } else if (this.state.name == "Kasia Prządka") {
                     info = "trafiłeś!";
                     wishes = "Podróżniczych przygód, radości każdego dnia i realizacji marzeń!";
-                    photo = "";
+                    photo = "./images/kasia.png";
                 } else if (this.state.name == "Ania") {
                     info = "trafiłeś!";
                     wishes = "Zero policyjnych przygód w Iranie:)";
-                    photo = "";
+                    photo = "./images/ania.png";
                 } else if (this.state.name == "Maro") {
                     info = "trafiłeś!";
                     wishes = "Z okazji urodzin życzymy Ci gromadki dzieciaków, w kieszeni miedziaków, przyjaciół od groma, kilku szalików  i koncertów bez liku! Sto Lat:) Ania i Marek";

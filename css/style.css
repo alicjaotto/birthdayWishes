@@ -69,7 +69,8 @@ h1 {
 }
 
 #photo {
-    background-color: magenta;
+    /*background-color: magenta;*/
+    border: none;
     width: 450px;
     height: 430px;
     position: absolute;
@@ -77,6 +78,6 @@ h1 {
     top: 180px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+background-size: cover;
 
 }
