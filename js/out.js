@@ -9575,44 +9575,66 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 if (this.state.name == "Ala") {
                     info = "wow, trafiłeś!";
-                    wishes = "Bezpiecznych znajomych i inspirujących przygód :)";
-                    photo = "";
+                    wishes = "Jaś, po pierwsze to dziękuję Ci za Twoj:)";
+                    photo = "./images/alajas.png";
                 } else if (this.state.name == "Jaconi") {
                     info = "trafiłeś!";
                     wishes = "Żebyś miał zawsze zluzowane szelki!";
+                    photo = "./images/jaco.png";
                 } else if (this.state.name == "Misiak") {
                     info = "trafiłeś!";
-                    wishes = "";
+                    wishes = "Żeby na koniec jego 27 roku Twoja żona zawstydzała Cię umiejętnościami zawodowymi i żeby bardziej opłacało się Tobie niż jej pójść na urlop macierzyński";
+                    photo = "./images/michalgosia.png";
                 } else if (this.state.name == "Luis") {
                     info = "trafiłeś!";
                     wishes = "Either because of getting older or 'henner', better broth is produced. Molt d'anys from Barcelona!";
                 } else if (this.state.name == "Paczos") {
                     info = "trafiłeś!";
                     wishes = "Twardych jaj!";
+                    photo = "./images/paczosy.png";
                 } else if (this.state.name == "Duży") {
                     info = "trafiłeś!";
                     wishes = 'Ala teraz robi strony, co zaobserwowa\u0142 Johnny.\n                \'Sta\u0142a\u015B si\u0119 webow\u0105 wr\xF3\u017Ck\u0105\' - czule szepn\u0105\u0142 jej na uszko.\n                React z jQuery na starcie, tylko PeHaP daje tarcie..';
+                    photo = "./images/duzy.png";
                 } else if (this.state.name == "Mama" || this.state.name == "Tata") {
                     info = "trafiłeś!";
-                    wishes = 'Niech Ci winko leci z kranu, nim polecisz do Iranu.\n                        Tam ju\u017C winka pi\u0107 nie trzeba, Allah gro\u017Anie patrzy z nieba.\n                        Niech Ci\u0119 tam pilnuje \u017Cona - Iran to nie Arizona...\n                     S\u0142uchaj przestr\xF3g mamy, taty - bo Ci porachuj\u0105 gnaty!!!';
+                    wishes = 'Niech Ci winko leci z kranu, nim polecisz do Iranu.\n                Tam ju\u017C winka pi\u0107 nie trzeba, Allah gro\u017Anie patrzy z nieba.\n                Niech Ci\u0119 tam pilnuje \u017Cona - Iran to nie Arizona...\n                S\u0142uchaj przestr\xF3g mamy, taty - bo Ci porachuj\u0105 gnaty!!!';
+                    photo = "./images/mamatata.png";
                 } else if (this.state.name == "Kasia Górska") {
                     info = "trafiłeś!";
                     wishes = "Żeby zdrowko i humor zawsze dopisywały, żonka byla wiecznie młoda i piękna;), i zeby rodzinka powiekszyla sie niebawem o tylu młodych i silnych gagatkow (płci obojga), że zabraknie dla nich kandydatow na chrzestnych spośrod rodziny i znajomych :)";
+                    photo = "";
                 } else if (this.state.name == "Andrzej") {
                     info = "trafiłeś!";
                     wishes = "Jasiu, piekną żonę juz masz i wiecej kobiet w swoim wieku nie potrzebujesz ;) Za to, życze ci pięknej córy i spełnienia marzeń, których Twoja głowa jest pełna!";
+                    photo = "./images/andrzej.png";
                 } else if (this.state.name == "Kasia Rymuza") {
                     info = "trafiłeś!";
                     wishes = "Jasiu, rośnij duży, mądry i bogaty";
+                    photo = "./images/kasiafranek.png";
                 } else if (this.state.name == "Rafał") {
                     info = "trafiłeś!";
-                    wishes = "Na obiad bitek a nie bitow ;) i żeby żona Ci się nie znerdziła...:)";
+                    wishes = "Na obiad bitek a nie bitow ;) i żeby żona Ci się nie     znerdziła...:)";
+                    photo = "";
                 } else if (this.state.name == "Kasia") {
                     info = "która?!";
                     wishes = "";
                 } else if (this.state.name == "Kasia Prządka") {
                     info = "trafiłeś!";
                     wishes = "Podróżniczych przygód, radości każdego dnia i realizacji marzeń!";
+                    photo = "";
+                } else if (this.state.name == "Ania") {
+                    info = "trafiłeś!";
+                    wishes = "Zero policyjnych przygód w Iranie:)";
+                    photo = "";
+                } else if (this.state.name == "Maro") {
+                    info = "trafiłeś!";
+                    wishes = "Z okazji urodzin życzymy Ci gromadki dzieciaków, w kieszeni miedziaków, przyjaciół od groma, kilku szalików  i koncertów bez liku! Sto Lat:) Ania i Marek";
+                    photo = "./images/aniamaro.png";
+                } else if (this.state.name == "Wojtuś") {
+                    info = "trafiłeś!";
+                    wishes = "Jasiek! Chciałbym Ci życzyć, abyś dalej szerzył wszędzie uśmiech i radość, i wydobywał z ludzi to, co naprawdę piekne i cenne (niekoniecznie po dobroci). Aby nigdy nie brakowało Ci optymizmu, a drobne trudności nie były w stanie zgasić Twojego zapału. Właściwie, to żebyś wcale się nie zmieniał, bo jesteś naprawdę wspaniały i mogę tylko podziękować Ci za Twoja obecność w moim życiu";
+                    photo = "./images/wojtek.png";
                 } else {
                     info = "jeszcze nie trafiłeś!";
                 }
@@ -9649,12 +9671,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     _react2.default.createElement(
                         'div',
                         null,
-                        _react2.default.createElement('img', { src: photo }),
-                        _react2.default.createElement(
-                            'span',
-                            null,
-                            '?'
-                        )
+                        _react2.default.createElement('img', { id: 'photo', src: photo })
                     )
                 );
             }

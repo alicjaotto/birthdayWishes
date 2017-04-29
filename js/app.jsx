@@ -26,63 +26,88 @@ document.addEventListener('DOMContentLoaded', function(){
             var photo;
 
             if (this.state.name == "Ala") {
-                info = "wow, trafiłeś!"
-                wishes = "Bezpiecznych znajomych i inspirujących przygód :)";
-                photo = "";
+                info = "wow, trafiłeś!";
+                wishes = "Jaś, po pierwsze to dziękuję Ci za Twoj:)";
+                photo = "./images/alajas.png";
 
             } else if (this.state.name == "Jaconi") {
-                info = "trafiłeś!"
+                info = "trafiłeś!";
                 wishes = "Żebyś miał zawsze zluzowane szelki!";
+                photo = "./images/jaco.png";
 
 
             } else if (this.state.name == "Misiak") {
-                info = "trafiłeś!"
-                wishes = "";
+                info = "trafiłeś!";
+                wishes = "Żeby na koniec jego 27 roku Twoja żona zawstydzała Cię umiejętnościami zawodowymi i żeby bardziej opłacało się Tobie niż jej pójść na urlop macierzyński";
+                photo = "./images/michalgosia.png"
 
             } else if (this.state.name == "Luis") {
-                info = "trafiłeś!"
+                info = "trafiłeś!";
                 wishes = "Either because of getting older or 'henner', better broth is produced. Molt d'anys from Barcelona!";
 
             } else if (this.state.name == "Paczos" ) {
-                info = "trafiłeś!"
+                info = "trafiłeś!";
                 wishes = "Twardych jaj!";
+                photo = "./images/paczosy.png"
 
             } else if (this.state.name == "Duży" ) {
-                info = "trafiłeś!"
+                info = "trafiłeś!";
                 wishes = `Ala teraz robi strony, co zaobserwował Johnny.
                 'Stałaś się webową wróżką' - czule szepnął jej na uszko.
                 React z jQuery na starcie, tylko PeHaP daje tarcie..`;
+                photo = "./images/duzy.png"
 
             } else if (this.state.name == "Mama" || this.state.name == "Tata" ) {
-                info = "trafiłeś!"
+                info = "trafiłeś!";
                 wishes = `Niech Ci winko leci z kranu, nim polecisz do Iranu.
-                        Tam już winka pić nie trzeba, Allah groźnie patrzy z nieba.
-                        Niech Cię tam pilnuje żona - Iran to nie Arizona...
-                     Słuchaj przestróg mamy, taty - bo Ci porachują gnaty!!!`;
+                Tam już winka pić nie trzeba, Allah groźnie patrzy z nieba.
+                Niech Cię tam pilnuje żona - Iran to nie Arizona...
+                Słuchaj przestróg mamy, taty - bo Ci porachują gnaty!!!`;
+                photo = "./images/mamatata.png"
 
             } else if (this.state.name == "Kasia Górska" ) {
-                 info = "trafiłeś!"
-                 wishes = "Żeby zdrowko i humor zawsze dopisywały, żonka byla wiecznie młoda i piękna;), i zeby rodzinka powiekszyla sie niebawem o tylu młodych i silnych gagatkow (płci obojga), że zabraknie dla nich kandydatow na chrzestnych spośrod rodziny i znajomych :)";
+                info = "trafiłeś!";
+                wishes = "Żeby zdrowko i humor zawsze dopisywały, żonka byla wiecznie młoda i piękna;), i zeby rodzinka powiekszyla sie niebawem o tylu młodych i silnych gagatkow (płci obojga), że zabraknie dla nich kandydatow na chrzestnych spośrod rodziny i znajomych :)";
+                photo = "";
 
             } else if (this.state.name == "Andrzej" ) {
-                  info = "trafiłeś!"
-                  wishes = "Jasiu, piekną żonę juz masz i wiecej kobiet w swoim wieku nie potrzebujesz ;) Za to, życze ci pięknej córy i spełnienia marzeń, których Twoja głowa jest pełna!";
+                info = "trafiłeś!"
+                wishes = "Jasiu, piekną żonę juz masz i wiecej kobiet w swoim wieku nie potrzebujesz ;) Za to, życze ci pięknej córy i spełnienia marzeń, których Twoja głowa jest pełna!";
+                photo = "./images/andrzej.png"
 
             } else if (this.state.name == "Kasia Rymuza" ) {
-                   info = "trafiłeś!"
-                   wishes = "Jasiu, rośnij duży, mądry i bogaty";
+                info = "trafiłeś!";
+                wishes = "Jasiu, rośnij duży, mądry i bogaty";
+                photo = "./images/kasiafranek.png"
 
             } else if (this.state.name == "Rafał" ) {
-                      info = "trafiłeś!"
-                      wishes = "Na obiad bitek a nie bitow ;) i żeby żona Ci się nie znerdziła...:)";
+                info = "trafiłeś!";
+                wishes = "Na obiad bitek a nie bitow ;) i żeby żona Ci się nie     znerdziła...:)";
+                photo = "";
 
              } else if (this.state.name == "Kasia" ) {
-                    info = "która?!"
-                    wishes = "";
+                 info = "która?!";
+                 wishes = "";
 
             } else if (this.state.name == "Kasia Prządka" ) {
-                       info = "trafiłeś!"
-                       wishes = "Podróżniczych przygód, radości każdego dnia i realizacji marzeń!";
+                info = "trafiłeś!";
+                wishes = "Podróżniczych przygód, radości każdego dnia i realizacji marzeń!";
+                photo = "";
+
+            } else if (this.state.name == "Ania" ) {
+                info = "trafiłeś!";
+                wishes = "Zero policyjnych przygód w Iranie:)";
+                photo = "";
+
+            } else if (this.state.name == "Maro" ) {
+                info = "trafiłeś!";
+                wishes = "Z okazji urodzin życzymy Ci gromadki dzieciaków, w kieszeni miedziaków, przyjaciół od groma, kilku szalików  i koncertów bez liku! Sto Lat:) Ania i Marek";
+                photo = "./images/aniamaro.png";
+
+            } else if (this.state.name == "Wojtuś" ) {
+                info = "trafiłeś!";
+                wishes = "Jasiek! Chciałbym Ci życzyć, abyś dalej szerzył wszędzie uśmiech i radość, i wydobywał z ludzi to, co naprawdę piekne i cenne (niekoniecznie po dobroci). Aby nigdy nie brakowało Ci optymizmu, a drobne trudności nie były w stanie zgasić Twojego zapału. Właściwie, to żebyś wcale się nie zmieniał, bo jesteś naprawdę wspaniały i mogę tylko podziękować Ci za Twoja obecność w moim życiu";
+                photo = "./images/wojtek.png";
 
             } else {
                 info = "jeszcze nie trafiłeś!";
@@ -100,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function(){
                         </div>
 
                         <div>
-                            <img src={photo}></img><span>?</span>
+                            <img id="photo" src={photo}></img>
                         </div>
                     </div>;
         }
